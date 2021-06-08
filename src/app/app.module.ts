@@ -10,6 +10,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import {AuthService} from './service/auth.service';
+//import HTTP
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent
@@ -21,7 +23,8 @@ import {AuthService} from './service/auth.service';
     AngularFireAuthModule,
     AngularFireMessagingModule,
     AngularFireStorageModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     AngularFirestore,

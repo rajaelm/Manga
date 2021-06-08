@@ -6,21 +6,12 @@
     <th>caracteristique</th>
   </tr>
   <tr>
-    <td><img src="./../assets/light.jpg" width="100px" /></td>
-    <td>Light Yagami</td>
-    <td>Smart</td>
-  </tr>
-  <tr>
-    <td><img src="./../assets/llawliet.jpg" width="100px" /></td>
-    <td>L</td>
-    <td>Smart</td>
-  </tr>
-  <tr>
-    <td><img src="./../assets/ryuk.jpg" width="100px" /></td>
-    <td>Ryuk</td>
-    <td>Shinigami</td>
+    <td><img src="{{data.image}}" width="100px"/></td>
+    <td>{{data.name}}</td>
+    <td>{{data.caracteristique}}</td>
   </tr>
 </table>
+
 
 <div>
   <!-- this header tag displays only when user is logged-in -->
@@ -51,5 +42,4 @@
       Logout
     </button>
 </div>
-
 <router-outlet></router-outlet>

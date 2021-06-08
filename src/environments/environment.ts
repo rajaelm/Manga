@@ -5,13 +5,14 @@
 export const environment = {
   production: true,
   firebase : {
-    apiKey: "AIzaSyAbcE7YQLWJimx-2DnI2HJiRXvEm47WPv8",
-    authDomain: "cours-tp-c66b1.firebaseapp.com",
-    projectId: "cours-tp-c66b1",
-    storageBucket: "cours-tp-c66b1.appspot.com",
-    messagingSenderId: "92822486736",
-    appId: "1:92822486736:web:caf209611a3c24a1f328d5",
-    measurementId: "G-7SL27GMFTC"
+    apiKey: "AIzaSyCa6a7db_ERBgLYPDprojEP5IsN6CcqPpo",
+    authDomain: "mangas-d2885.firebaseapp.com",
+    databaseURL: "https://mangas-d2885-default-rtdb.firebaseio.com",
+    projectId: "mangas-d2885",
+    storageBucket: "mangas-d2885.appspot.com",
+    messagingSenderId: "357083715599",
+    appId: "1:357083715599:web:01cbd1f8bcafb34a1eab7a",
+    measurementId: "G-Y4YETT4MME"
   }
 };
 
